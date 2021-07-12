@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happypay Credit</title>
+</head>
+<body onload="document.forms[0].submit();">
+  <form action="{{api}}" method="post" name="form1" id="form1">
+    <input type="hidden" value="{{xid}}" name="xid">
+    <input type="hidden" value="{{status}}" name="status">
+    <input type="hidden" value="{{orderNo}}" name="orderNo">
+    <input type="hidden" value="{{currency}}" name="currency">
+    <input type="hidden" value="{{nonce}}" name="nonce">
+    <input type="hidden" value="{{amount}}" name="amount">
+    <input type="hidden" value="{{timestamp}}" name="timestamp">
+    <input type="hidden" value="{{checkCode}}" name="checkCode">
+  </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon-circle-dotted</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="8">
+        <g transform="translate(-630.000000, -240.000000)" id="icon" stroke="#F5A623">
+            <g transform="translate(9.000000, 40.000000)">
+                <g id="icon-circle-dotted" transform="translate(622.000000, 201.000000)">
+                    <path d="M11,22 C17.0751322,22 22,17.0751322 22,11 C22,4.92486775 17.0751322,0 11,0 C4.92486775,0 0,4.92486775 0,11 C0,17.0751322 4.92486775,22 11,22 Z" id="Oval-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

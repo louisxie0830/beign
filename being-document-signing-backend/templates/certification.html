@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BeingSign簽署王</title>
+<link href="/static/certification/css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrap">
+	<div class="top">
+		<img src="/static/certification/images/LOGO.png"/>
+		<hr>
+		<h1>協議編號：{{id}}</h1>
+		<h1>協議主旨：<span>{{title}}</span></h1>
+		<hr>
+	</div>
+	<div class="main">
+		<ul>
+            {{#each signerList}}
+            {{#with this}}
+			<li>
+				<h3>{{order}}</h3>
+                <div class="number"><img src="/static/certification/images/0.png"/></div>
+                {{#or (not @first) (not @last)}}
+                    {{#if @first}}
+                    <div class="line_top"></div>
+                    {{else}}
+                        {{#if @last}}
+                        <div class="line_end"></div>
+                        {{else}}
+                        <div class="line"></div>
+                        {{/if}}
+                    {{/if}}
+                {{/or}}
+				<div class="content">
+                {{#if (eq type 0)}}
+                <h1>協議發起人：</h1>
+                {{/if}}
+                {{#if (eq type 1)}}
+                <h1>協議簽署人：</h1>
+                {{/if}}
+                {{#if (eq type 3)}}
+                <h1>協議同意人：</h1>
+                {{/if}}
+				<h2>{{companyName}} {{positionName}} {{name}}<span>{{time}}</span></h2>
+				</div>
+				<div class="close"></div>
+            </li>
+            {{/with}}
+            {{/each}}
+		</ul>
+	</div>
+	<div class="main">
+		<h1>簽署文件資訊：</h1>
+		<div class="table1">
+			<table>
+				<tr>
+					<th>File Name</th>
+					<th>Document ID</th>
+					<th>File ID</th>
+                </tr>
+                {{#each fileList}}
+				<tr>
+                    <td>{{this.fileName}}</td>
+                    {{#if (eq @index 0)}}
+                    <td rowspan="{{../fileList.length}}">{{../uuid}}</td>
+                    {{/if}}
+					<td>{{this.fileId}}</td>
+                </tr>
+                {{/each}}
+			</table>
+		</div>
+	</div>
+	<div class="bottom"><img src="/static/certification/images/bottom.png" alt=""/></div>
+
+</div>
+
+</body>
+</html>

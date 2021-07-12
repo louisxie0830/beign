@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardButtonCell" rowHeight="84" id="KGk-i7-Jjw" customClass="CardButtonCell" customModule="signing_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jum-S3-4ot">
+                        <rect key="frame" x="6" y="0.0" width="308" height="83.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9W-Uu-qJT">
+                                <rect key="frame" x="10" y="0.0" width="288" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="xon-4L-hbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.098039215690000001" green="0.12549019610000001" blue="0.1450980392" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-F0-4Gc">
+                                <rect key="frame" x="10" y="22" width="158" height="40"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="請輸入Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZAT-Lm-ZG5">
+                                        <rect key="frame" x="15" y="13" width="128" height="14"/>
+                                        <color key="textColor" red="0.56470588239999997" green="0.57647058819999997" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ZAT-Lm-ZG5" firstAttribute="leading" secondItem="Ozg-F0-4Gc" secondAttribute="leading" constant="15" id="3Az-7g-k4k"/>
+                                    <constraint firstAttribute="height" constant="40" id="6PK-MV-44Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZAT-Lm-ZG5" secondAttribute="bottom" constant="13" id="D17-cp-UFa"/>
+                                    <constraint firstItem="ZAT-Lm-ZG5" firstAttribute="top" secondItem="Ozg-F0-4Gc" secondAttribute="top" constant="13" id="DwV-wo-3Xw"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZAT-Lm-ZG5" secondAttribute="trailing" constant="15" id="oAQ-bd-amQ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeM-cl-ksG" customClass="RaisedButton" customModule="Material">
+                                <rect key="frame" x="178" y="22" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Lzi-t1-cEY"/>
+                                    <constraint firstAttribute="width" constant="120" id="qek-Yc-oDW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="獲取驗證碼"/>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-kK-T2W">
+                                <rect key="frame" x="10" y="66" width="288" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="ocw-jb-nLq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ozg-F0-4Gc" firstAttribute="top" secondItem="K9W-Uu-qJT" secondAttribute="bottom" constant="4" id="7ti-4v-rXu"/>
+                            <constraint firstAttribute="trailing" secondItem="K9W-Uu-qJT" secondAttribute="trailing" constant="10" id="7tl-av-u5Q"/>
+                            <constraint firstItem="ahx-kK-T2W" firstAttribute="leading" secondItem="jum-S3-4ot" secondAttribute="leading" constant="10" id="Dqv-Ze-pcK"/>
+                            <constraint firstItem="qeM-cl-ksG" firstAttribute="top" secondItem="K9W-Uu-qJT" secondAttribute="bottom" constant="4" id="I7y-4K-heH"/>
+                            <constraint firstItem="qeM-cl-ksG" firstAttribute="leading" secondItem="Ozg-F0-4Gc" secondAttribute="trailing" constant="10" id="K6s-qB-7KI"/>
+                            <constraint firstAttribute="trailing" secondItem="ahx-kK-T2W" secondAttribute="trailing" constant="10" id="PoA-6m-kT1"/>
+                            <constraint firstAttribute="trailing" secondItem="qeM-cl-ksG" secondAttribute="trailing" constant="10" id="ccK-GU-sBF"/>
+                            <constraint firstItem="Ozg-F0-4Gc" firstAttribute="leading" secondItem="jum-S3-4ot" secondAttribute="leading" constant="10" id="fcw-bN-cd6"/>
+                            <constraint firstItem="K9W-Uu-qJT" firstAttribute="leading" secondItem="jum-S3-4ot" secondAttribute="leading" constant="10" id="hzI-JB-3oZ"/>
+                            <constraint firstItem="ahx-kK-T2W" firstAttribute="top" secondItem="Ozg-F0-4Gc" secondAttribute="bottom" constant="4" id="k6l-4K-8Qe"/>
+                            <constraint firstAttribute="bottom" secondItem="ahx-kK-T2W" secondAttribute="bottom" constant="3.5" id="oaR-V3-dZa"/>
+                            <constraint firstItem="K9W-Uu-qJT" firstAttribute="top" secondItem="jum-S3-4ot" secondAttribute="top" id="tpD-QG-atl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jum-S3-4ot" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DMQ-O1-FsT"/>
+                    <constraint firstAttribute="trailing" secondItem="jum-S3-4ot" secondAttribute="trailing" constant="6" id="DoE-ai-05u"/>
+                    <constraint firstItem="jum-S3-4ot" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="KhE-z3-LtH"/>
+                    <constraint firstAttribute="bottom" secondItem="jum-S3-4ot" secondAttribute="bottom" id="jPO-i9-qWF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="jum-S3-4ot" id="X53-88-5cx"/>
+                <outlet property="boundView" destination="Ozg-F0-4Gc" id="egt-5F-wnD"/>
+                <outlet property="cardButton" destination="qeM-cl-ksG" id="gAh-MH-9J2"/>
+                <outlet property="errorLabel" destination="ahx-kK-T2W" id="zGi-ZY-kq3"/>
+                <outlet property="textField" destination="ZAT-Lm-ZG5" id="xYQ-5b-mr4"/>
+                <outlet property="titleLabel" destination="K9W-Uu-qJT" id="gsz-NC-MU3"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="143.92803598200899"/>
+        </tableViewCell>
+    </objects>
+</document>

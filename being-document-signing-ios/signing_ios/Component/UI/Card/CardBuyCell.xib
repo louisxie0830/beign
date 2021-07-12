@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardBuyCell" rowHeight="40" id="KGk-i7-Jjw" customClass="CardBuyCell" customModule="signing_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDK-Hh-TML">
+                        <rect key="frame" x="6" y="0.0" width="308" height="39.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-o1-aiY" customClass="RaisedButton" customModule="Material">
+                                <rect key="frame" x="12" y="8" width="24" height="24"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.69019607839999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="GQD-Yc-KFe"/>
+                                    <constraint firstAttribute="height" constant="24" id="MaM-ft-tM2"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="selectButtonAction" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MlR-wp-G8X"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYS-Sw-9Jv">
+                                <rect key="frame" x="46" y="13" width="120" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="gsh-15-SSc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0o-UA-hZe">
+                                <rect key="frame" x="176" y="13" width="120" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="PaY-ww-da4"/>
+                                    <constraint firstAttribute="height" constant="14" id="jq4-7y-s0C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wkq-o1-aiY" firstAttribute="leading" secondItem="VDK-Hh-TML" secondAttribute="leading" constant="12" id="1zL-9x-Zf6"/>
+                            <constraint firstItem="Wkq-o1-aiY" firstAttribute="centerY" secondItem="VDK-Hh-TML" secondAttribute="centerY" id="5Wy-xa-D7I"/>
+                            <constraint firstItem="s0o-UA-hZe" firstAttribute="centerY" secondItem="VDK-Hh-TML" secondAttribute="centerY" id="AMD-na-mgw"/>
+                            <constraint firstAttribute="trailing" secondItem="s0o-UA-hZe" secondAttribute="trailing" constant="12" id="OaQ-X0-I4u"/>
+                            <constraint firstItem="bYS-Sw-9Jv" firstAttribute="centerY" secondItem="VDK-Hh-TML" secondAttribute="centerY" id="PJv-Jp-4kP"/>
+                            <constraint firstItem="bYS-Sw-9Jv" firstAttribute="leading" secondItem="Wkq-o1-aiY" secondAttribute="trailing" constant="10" id="f1o-1a-ib4"/>
+                            <constraint firstItem="s0o-UA-hZe" firstAttribute="leading" secondItem="bYS-Sw-9Jv" secondAttribute="trailing" constant="10" id="rmq-qm-ogq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="VDK-Hh-TML" secondAttribute="bottom" id="4iE-uE-lSj"/>
+                    <constraint firstItem="VDK-Hh-TML" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="Seb-sf-G8s"/>
+                    <constraint firstItem="VDK-Hh-TML" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aul-nA-bAa"/>
+                    <constraint firstAttribute="trailing" secondItem="VDK-Hh-TML" secondAttribute="trailing" constant="6" id="gIU-hu-BFn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="VDK-Hh-TML" id="eDa-O3-R13"/>
+                <outlet property="priceLabel" destination="s0o-UA-hZe" id="lg5-2c-RdG"/>
+                <outlet property="selectButton" destination="Wkq-o1-aiY" id="2rA-9G-Ouy"/>
+                <outlet property="titleLabel" destination="bYS-Sw-9Jv" id="INX-gE-dq2"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

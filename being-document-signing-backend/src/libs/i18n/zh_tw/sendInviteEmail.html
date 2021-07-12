@@ -1,0 +1,26 @@
+<table style="width:700px; border:1px rgba(25, 31, 37, 0.12) solid; font-size:12px;margin: 20px auto 10px auto">
+  <thead>
+    <tr>
+      <td><img style="width:700px;height:60px" alt="beingsignlogo" src="{{ imgUrl }}"></img></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div style="width: 600px;margin: 40px auto; line-height: 1.67;">
+            <p>Hi {{ personStr }}：</p>
+            <p>{{ inviter }} 邀請您加入 {{ companyName }}/{{ departmentName }}的團隊，</p>
+            <p>您可點開連下方連結，一起加入簽署王的提供服務。</p>
+            <a href="https://frontend-signing-test.beingtech.org/client/RegisterByCode?inviteCode={{ inviteCode }}">加入我們</a>
+            <br/>
+            <p>如果有任何問題歡迎來信詢問: {{ serviceMail }}</p>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p style="width:700px;font-size:12px;margin: 0px auto">
+<span style="color:#909399; font-size:12px;">
+    此信件為簽署王系統發送，為了保護你的資訊安全，請勿轉寄和回覆這封電子郵件。
+</span>
+</p>

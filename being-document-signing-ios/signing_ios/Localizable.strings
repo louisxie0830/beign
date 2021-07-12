@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  signing_ios
+
+  Created by Rock Chen on 2019/4/1.
+  Copyright © 2019 Rock Chen. All rights reserved.
+*/
+"splash_title_1" = "雙重安全認證";
+"splash_title_2" = "區塊鏈技術與簽署應用";
+"splash_title_3" = "三大好處";
+"splash_title_4" = "四大功能";
+"splash_content_1" = "採用企業授權私鑰/簽署人私鑰雙重認證一步確認協議簽署人身份認證+企業授權認證";
+"splash_content_2" = "協議在區塊鏈上永久保存，不可竄改不必再等待紙本協議寄送，五分鐘完成簽署調閱協議壓上調閱者浮水印，外洩需承擔責任";
+"splash_content_3" = "縮短交易時間\n加速文件交換\n防止文件遭竄改";
+"splash_content_4" = "使用者身分認證\n文件簽署服務\n文件傳輸功能\n文件儲存功能";
+
+"login" = "登入";
+"signup" = "註冊";
+"send_verify_mail" = "寄送驗證信";
+"name" = "姓名";
+"contact_number" = "聯絡電話";
+"email" = "Email";
+"password" = "密碼";
+"confirm_password" = "確認密碼";
+"credential_password" = "憑證密碼";
+"confirm_credential_password" = "確認憑證密碼";
+"edit_password" = "修改密碼";
+"edit_cert_password" = "修改憑證密碼";
+"verify_code" = "驗證碼";
+"get_verify_code" = "獲取驗證碼";
+"forget_password" = "忘記密碼?";
+"8-32_password" = "（8-32位元，需包含英數字）";
+
+"please_input_real_name" = "請輸入真實姓名";
+"please_input_name" = "請輸入姓名";
+"please_input_contact_number" = "請輸入聯絡電話";
+"please_input_email" = "請輸入Email";
+"please_input_password" = "請輸入密碼";
+"please_input_password_again" = "請再次輸入密碼";
+"please_input_credential_password" = "請輸入憑證密碼";
+"please_input_verify_code" = "請輸入驗證碼";
+"please_input_credential_password_again" = "請再次輸入憑證密碼";
+
+"read_and_agree" = "已閱讀並同意%@和%@";
+"terms" = "《用戶使用條款》";
+"privacy" = "《隱私權聲明》";
+
+"being_protocol_service" = "必應協議及文件簽署服務";
+
+"menu_title_personal" = "個人實名認證";
+"menu_title_edit_password" = "修改登入密碼";
+"menu_title_edit_cer_password" = "設定憑證密碼";
+"menu_title_setting_person" = "設定聯絡人";
+"menu_title_setting_tag" = "設定簽署標籤";
+"menu_title_buy_project" = "購買方案";
+
+"buy_type_title" = "簽署身份";
+"buy_type_title_hint" = "請選擇欲購買方案之簽署身份，發起簽署將以簽署身份為單位計算扣款。";
+"buy_type_lost_count" = "剩餘次數";
+"buy_type_count" = " 次";
+"buy_type_project_title" = "購買方案";
+
+"search_text_placeholder" = "搜尋聯絡人名稱、Email";
+"company_title" = "公司的名稱";
+"navigation_title_wait_sign" = "待我簽署";

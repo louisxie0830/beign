@@ -1,0 +1,10 @@
+def projName = env.JOB_NAME.replaceAll('/', '-')
+parent = "${projName}-${env.BUILD_NUMBER}"
+
+podTemplate(label: parent, containers: []) {
+    node(parent) {
+        ansiColor('xterm') {
+            def jenkinsFile = fileLoader.fromGit('jenkinsfile-being-document-signing.groovy', 'git@bitbucket.org:evatar/being-deployer.git', 'master', 'JenkinsDev', parent)
+        }
+    }
+}

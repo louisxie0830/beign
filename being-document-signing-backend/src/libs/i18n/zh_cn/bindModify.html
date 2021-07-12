@@ -1,0 +1,27 @@
+<table style="width:700px; border:1px rgba(25, 31, 37, 0.12) solid; font-size:12px;margin: 20px auto 10px auto">
+  <thead>
+    <tr>
+      <td><img style="width:700px;height:60px" alt="beingsignlogo" src="{{ imgUrl }}"></img></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div style="width: 600px;margin: 40px auto; line-height: 1.67;">
+            <p>亲爱的用户，你好：</p>
+            <br />
+            <p>
+              你于 {{ myTime }} 在「签署王」{{ bindStr }}。
+            </p>
+            <p>请使用以下验证码完成后续流程；验证码30分钟内有效。</p>
+        </div>
+        <p style="width: 600px;margin: 0 auto 40px auto;">验证码: {{ code }}</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p style="width:700px;font-size:12px;margin: 0px auto">
+  <span style="color:#909399; font-size:12px;">
+    此信件为签署王系统发送，为了保护你的资讯安全，请勿转寄和回覆这封电子邮件。
+  </span>
+</p>

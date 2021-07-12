@@ -1,0 +1,142 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - CryptoSwift (0.14.0)
+  - Differentiator (3.1.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - keccak.c (0.1.3)
+  - Kingfisher (5.2.0)
+  - KRActivityIndicatorView (3.0.0)
+  - KRProgressHUD (3.4.0):
+    - KRActivityIndicatorView (= 3.0.0)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - PKHUD (5.2.1)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - Result (4.1.0)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - scrypt.c (0.1.1)
+  - secp256k1.c (0.1.2)
+  - SipHash (1.2.2)
+  - SnapKit (4.2.0)
+  - TPKeyboardAvoidingSwift (3.1)
+  - web3swift.pod (2.1.10):
+    - BigInt (~> 3.1)
+    - keccak.c (~> 0.1)
+    - PromiseKit (~> 6.4)
+    - scrypt.c (~> 0.1)
+    - secp256k1.c (~> 0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - CodableAlamofire (~> 1.1.0)
+  - CryptoSwift (~> 0.14.0)
+  - IQKeyboardManagerSwift (~> 6.2.0)
+  - Kingfisher (~> 5.2.0)
+  - KRProgressHUD (~> 3.4.0)
+  - Material (~> 2.16.4)
+  - Moya/RxSwift (~> 12.0.1)
+  - NVActivityIndicatorView (~> 4.6.1)
+  - PKHUD (~> 5.2.1)
+  - RxCocoa (~> 4.4.1)
+  - RxDataSources (~> 3.1.0)
+  - RxSwift (~> 4.4.1)
+  - SnapKit (~> 4.2.0)
+  - TPKeyboardAvoidingSwift (~> 3.1)
+  - web3swift.pod
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BigInt
+    - CodableAlamofire
+    - CryptoSwift
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - keccak.c
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - Material
+    - Motion
+    - Moya
+    - NVActivityIndicatorView
+    - PKHUD
+    - PromiseKit
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - scrypt.c
+    - secp256k1.c
+    - SipHash
+    - SnapKit
+    - TPKeyboardAvoidingSwift
+    - web3swift.pod
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  keccak.c: 859583afdaccb4e4fcc0f0096064d101580313f4
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  KRActivityIndicatorView: c414000730a6f4969eeb354bee4f2aebc89c2c2e
+  KRProgressHUD: 79c8703f82179fe34b3602f10b30726f887983fa
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  scrypt.c: b42ae06183251329d2b2c620c226fb541a4a3592
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  TPKeyboardAvoidingSwift: b518d6e0c325d62ef5bddb712f22852b41cd165c
+  web3swift.pod: e3bd1c18a84e9fc1c4bfab8ebc0754b0806a7bcd
+
+PODFILE CHECKSUM: 1d175c65ce02c914283e95592738881a5b3a5cbd
+
+COCOAPODS: 1.5.3

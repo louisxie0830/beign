@@ -1,0 +1,65 @@
+.vxe-checkbox>input:checked+.vxe-checkbox--icon+.vxe-checkbox--label {
+    color: #29155a;
+}
+.vxe-checkbox>input:checked+.vxe-checkbox--icon+.vxe-checkbox--label {
+    color: #29155a;
+}
+.vxe-checkbox>input:checked+.vxe-checkbox--icon {
+    background-color: #29155a;
+    border-color: #29155a;
+}
+.vxe-checkbox>input:checked+.vxe-checkbox--icon {
+    background-color: #29155a;
+    border-color: #29155a;
+}
+.vxe-checkbox>input:checked+.vxe-checkbox--icon+.vxe-checkbox--label {
+    color: #29155a;
+}
+.vxe-checkbox.is--indeterminate>input:not(:checked)+.vxe-checkbox--icon {
+    background-color: #29155a;
+    border-color: #29155a;
+}
+.vxe-pager .vxe-pager--jump-next.is--active, .vxe-pager .vxe-pager--jump-next:hover, .vxe-pager .vxe-pager--jump-prev.is--active, .vxe-pager .vxe-pager--jump-prev:hover, .vxe-pager .vxe-pager--next-btn.is--active, .vxe-pager .vxe-pager--next-btn:hover, .vxe-pager .vxe-pager--num-btn.is--active, .vxe-pager .vxe-pager--num-btn:hover, .vxe-pager .vxe-pager--prev-btn.is--active, .vxe-pager .vxe-pager--prev-btn:hover {
+    color: #29155a;
+}
+.vxe-pager-size--select-wrapper .vxe-pager-size--select .size--option.is--active {
+    font-weight: 700;
+    color: #29155a;
+}
+.vxe-pager-size--select-wrapper .vxe-pager-size--select .size--option:hover {
+    color: #29155a;
+}
+.vxe-table.t--border .vxe-header--column {
+    border-right: 1px solid #e8eaec;
+    cursor: pointer;
+}
+.vxe-toolbar .vxe-custom--option-wrapper {
+    max-height: 310px;
+}
+.vxe-table--loading .vxe-table--spinner {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    transform: translate(-50%,-50%);
+}
+.vxe-table:after, .vxe-table:before {
+    z-index: 0;
+}
+.vxe-table--loading .vxe-table--spinner:after, .vxe-table--loading .vxe-table--spinner:before {
+    border: 24px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 24px solid #29155a;
+    background-color: #29155a;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

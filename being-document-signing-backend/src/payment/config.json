@@ -1,0 +1,100 @@
+{
+    "packages": [{
+        "id": "CNY_30",
+        "name": "1次 30 CNY",
+        "unit_price": 30,
+        "currency": "CNY",
+        "offer": 1
+    }, {
+      "id": "CNY_270",
+      "name": "10次 270 CNY",
+      "unit_price": 270,
+      "currency": "CNY",
+      "offer": 10
+    }, {
+      "id": "CNY_2400",
+      "name": "100次 2400 CNY",
+      "unit_price": 2400,
+      "currency": "CNY",
+      "offer": 100
+    }, {
+      "id": "CNY_10800",
+      "name": "500次 10800 CNY",
+      "unit_price": 10800,
+      "currency": "CNY",
+      "offer": 500
+    }, {
+      "id": "CNY_18000",
+      "name": "1000次 18000 CNY",
+      "unit_price": 18000,
+      "currency": "CNY",
+      "offer": 1000
+    }, {
+        "id": "USD_5",
+        "name": "1次 5 USD",
+        "unit_price": 5,
+        "currency": "USD",
+        "offer": 1
+    }, {
+        "id": "USD_45",
+        "name": "10次 45 USD",
+        "unit_price": 45,
+        "currency": "USD",
+        "offer": 10
+    }, {
+        "id": "USD_400",
+        "name": "100次 400 USD",
+        "unit_price": 400,
+        "currency": "USD",
+        "offer": 100
+    }, {
+        "id": "USD_1800",
+        "name": "500次 1800 USD",
+        "unit_price": 1800,
+        "currency": "USD",
+        "offer": 500
+    }, {
+        "id": "USD_3000",
+        "name": "10000次 3000 USD",
+        "unit_price": 3000,
+        "currency": "USD",
+        "offer": 10000
+    }, {
+        "id": "TWD_90",
+        "name": "1次 90 NTD",
+        "unit_price": 90,
+        "currency": "TWD",
+        "offer": 1
+    }, {
+        "id": "TWD_750",
+        "name": "10次 750 NTD",
+        "unit_price": 750,
+        "currency": "TWD",
+        "offer": 10
+    }, {
+        "id": "TWD_7650",
+        "name": "100次 6750 NTD",
+        "unit_price": 6750,
+        "currency": "TWD",
+        "offer": 100
+    }, {
+        "id": "TWD_30000",
+        "name": "500次 30000 NTD",
+        "unit_price": 30000,
+        "currency": "TWD",
+        "offer": 500
+    }, {
+        "id": "TWD_52500",
+        "name": "1000次 52500 NTD",
+        "unit_price": 52500,
+        "currency": "TWD",
+        "offer": 1000
+    },{
+        "id": "TWD_97500",
+        "name": "1000次 97500 NTD",
+        "unit_price": 97500,
+        "currency": "TWD",
+        "offer": 2000
+    }],
+    "methods": ["happypay", "alipay","newebpay"]
+}

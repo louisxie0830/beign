@@ -1,0 +1,37 @@
+$deep-sky-blue: #0486fe;
+$baby-blue: #a3d0fd;
+$ice-blue: #e6f1fc;
+$light-periwinkle: #dcdfe6;
+$pale-grey: #f5f7fa;
+$grapefruit: #fa5555;
+$salmon: #f56c6c;
+$orangeish: #ff943e;
+$dark-sky-blue-28: rgba(50, 150, 250, 0.28);
+$dark-12: rgba(25, 31, 37, 0.12);
+$dark-28: rgba(25, 31, 37, 0.28);
+$black-8: rgba(0, 0, 0, 0.08);
+$seaweed: #15bc83;
+$pastel-red: #f25643;
+$dark: #191f25;
+$white-smoke: #f6f6f6;
+$white: #ffffff;
+$dark-40: rgba(25, 31, 37, 0.4);
+$pale-blue: #d6f0f6;
+$robin-egg-blue: #95dded;
+$aqua: #13c3ea;
+$turquoise-blue: #10acce;
+$dark-56: rgba(25, 31, 37, 0.56);
+$divider: #e4e7ed;
+$white-bgc: #f0f0f0;
+$dark--40: rgba(25, 31, 37, 0.4);
+$dark--28: rgba(26, 31, 37, 0.28);
+
+// Custom Media Query Variables
+$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
+$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
+$breakpoint-large: 'screen and (min-width: 60em)' !default;
+
+// Custom text align variables
+$text-align-left: left !default;
+$text-align-right: right !default;
+$text-align-center: center !default;

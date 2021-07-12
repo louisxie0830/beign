@@ -1,0 +1,28 @@
+import { getters } from './type';
+export default {
+  [getters.DING_DING_STATUS]: state => state.dingDingStatus,
+  [getters.CURRENT_EMAIL]: state => state.email,
+  [getters.AUTH_TOKE]: state => state.authorization,
+  [getters.LOGIN_STATUS]: state => state.loginStatus,
+  [getters.DOCUMENTS]: state => state.document,
+  [getters.COMPANY_LIST]: state => state.companyList,
+  [getters.COMPANY_ID]: state => state.companyId,
+  [getters.USER_ROLE]: state => state.userRole,
+  [getters.USER_ADDRESS]: state => state.userAddress,
+  [getters.LETTER_DATA]: state => state.letterData,
+  [getters.CORP_ID]: state => state.corpId,
+  [getters.LOAD_STATUS]: state => state.isLoading,
+  [getters.DING_CONFIG]: state => state.dingConfig,
+  [getters.TAG_LIST]: state => state.tagList,
+  [getters.COUNTRY_CODE]: state => state.countryCode,
+  [getters.LANG]: state => state.lang,
+  [getters.USER_NAME]: state => state.userName,
+  [getters.USER_DATA]: state => state.userData,
+  [getters.CONTACT]: state => state.contact,
+  [getters.PAYMENT_INFO]: state => state.paymentInfo,
+  [getters.CITY]: state => state.city,
+  [getters.REGION]: state => state.region,
+  [getters.SIGNATURE_INFO]: state => state.signatureInfo,
+  [getters.SIGNATURE_STATUS]: state => state.signatureStatus,
+  [getters.USER_ENTITY]: state => state.userEntity
+};

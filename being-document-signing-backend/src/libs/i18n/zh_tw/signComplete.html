@@ -1,0 +1,37 @@
+<table style="width:700px; border:1px rgba(25, 31, 37, 0.12) solid; font-size:12px;margin: 20px auto 10px auto">
+  <thead>
+    <tr>
+      <td><img style="width:700px;height:60px" alt="beingsignlogo" src="{{ imgUrl }}"></img></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div style="width: 600px;margin: 40px auto; line-height: 1.67;">
+          <p style="margin-bottom: 10px;">親愛的用戶，您好：</p>
+          <p style="margin-bottom: 10px;">{{ letter.title }} 於 {{ myTime }} 在「簽署王」已完成簽署流程，可下載附件，並保留相關資訊</p>
+          <p>文件編號: {{ letter.uuid }}</p>
+          <p>文件標題: {{ letter.title }}</p>
+          <p>發起人: {{ userName }}</p>
+          <p>發起時間: {{ letter.create_time }}</p>
+          <p>{{#if signerList}}簽署人: {{/if}}</p>
+          {{#each signerList}}
+            <p>{{name}}/{{time}}</p>
+          {{/each}}
+          <p>{{#if signerList}}同意人: {{/if}}</p>
+          {{#each approverList}}            
+            <p>{{name}}/{{time}}</p>
+          {{/each}}
+
+          <p style="margin-top: 10px;">更多簽署詳情請登入「簽署王」</p>
+          <p>網址：<a href="{{baseUrl}}">{{baseUrl}}</a></p>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p style="width:700px;font-size:12px;margin: 0px auto">
+<span style="color:#909399; font-size:12px;">
+  此信件為簽署王系統發送，為了保護你的資訊安全，請勿轉寄和回覆這封電子郵件。
+</span>
+</p>

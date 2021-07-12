@@ -1,0 +1,53 @@
+@import './_variables';
+@import './_mixin.scss';
+@import './_global.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei',
+        'WenQuanYi Micro Hei', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    overflow-y: auto;
+}
+
+html,
+body {}
+
+textarea {
+    resize: none;
+}
+
+a[href],
+button {}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+
+#close_btn {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    color: #909399 !important;
+    font-size: 10px;
+}

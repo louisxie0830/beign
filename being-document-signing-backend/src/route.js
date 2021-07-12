@@ -1,0 +1,14 @@
+const Signing = require('./signing');
+const Auth = require('./auth');
+// const Ding = require('./ding');
+const Email = require('./email');
+const Contact = require('./contact')
+const Letter = require('./letter');
+const Tag = require('./tag');
+const ErrorReport = require('./errorReport');
+const Payment = require('./payment');
+const Static = require('./static');
+const Message = require('./message');
+const Invite = require('./invite');
+const Organization = require('./organization');
+module.exports = [].concat(Signing, Auth, Email, Contact, Letter, ErrorReport, Tag, Payment, Static, Message, Invite, Organization);

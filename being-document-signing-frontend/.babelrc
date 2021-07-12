@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": ["Chrome >= 52", "FireFox >= 44", "Safari >= 7", "Explorer 11", "last 4 Edge versions"]
+                },
+                "useBuiltIns": "usage",
+                "corejs": 2
+            }
+        ],
+        "stage-2"
+    ],
+    "ignore": ["node_modules"],
+    "plugins": ["transform-vue-jsx", "transform-runtime", "syntax-dynamic-import", "transform-object-assign"]
+}

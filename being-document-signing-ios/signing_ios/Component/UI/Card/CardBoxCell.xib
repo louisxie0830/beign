@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CardBoxCell" id="KGk-i7-Jjw" customClass="CardBoxCell" customModule="signing_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dO5-BM-ksa">
+                        <rect key="frame" x="6" y="0.0" width="308" height="53.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSX-Lc-SEQ" customClass="RaisedButton" customModule="Material">
+                                <rect key="frame" x="10" y="0.0" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Hmq-7h-Nv5"/>
+                                    <constraint firstAttribute="width" constant="16" id="oCZ-qo-HaJ"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="boxButtonAction" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Vzz-tb-Ok0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6D-PQ-UD3">
+                                <rect key="frame" x="36" y="0.0" width="262" height="37.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OSX-Lc-SEQ" firstAttribute="leading" secondItem="dO5-BM-ksa" secondAttribute="leading" constant="10" id="0E3-XK-NMn"/>
+                            <constraint firstAttribute="bottom" secondItem="G6D-PQ-UD3" secondAttribute="bottom" constant="16" id="aUk-sf-ChU"/>
+                            <constraint firstItem="G6D-PQ-UD3" firstAttribute="leading" secondItem="OSX-Lc-SEQ" secondAttribute="trailing" constant="10" id="cJf-sj-AlA"/>
+                            <constraint firstItem="G6D-PQ-UD3" firstAttribute="top" secondItem="dO5-BM-ksa" secondAttribute="top" id="dYK-Jv-Z69"/>
+                            <constraint firstAttribute="trailing" secondItem="G6D-PQ-UD3" secondAttribute="trailing" constant="10" id="fvO-ri-FE0"/>
+                            <constraint firstItem="OSX-Lc-SEQ" firstAttribute="top" secondItem="dO5-BM-ksa" secondAttribute="top" id="i36-ZJ-L9T"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dO5-BM-ksa" secondAttribute="trailing" constant="6" id="J1O-qL-gRm"/>
+                    <constraint firstItem="dO5-BM-ksa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Juy-br-qC4"/>
+                    <constraint firstItem="dO5-BM-ksa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="fGp-Nc-Vmv"/>
+                    <constraint firstAttribute="bottom" secondItem="dO5-BM-ksa" secondAttribute="bottom" id="pJC-FH-1Yy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="dO5-BM-ksa" id="mnu-Gp-48I"/>
+                <outlet property="boxButton" destination="OSX-Lc-SEQ" id="Igg-d3-mBp"/>
+                <outlet property="contentLabel" destination="G6D-PQ-UD3" id="xH6-jm-3gD"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="143.02848575712144"/>
+        </tableViewCell>
+    </objects>
+</document>

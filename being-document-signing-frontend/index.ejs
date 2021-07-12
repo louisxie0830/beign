@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151134451-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-151134451-1');
+        </script>
+        <meta charset="utf-8" />
+        <meta
+            content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+            name="viewport"
+        />
+        <!-- <meta content="yes" name="apple-touch-fullscreen" /> -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="簽署王" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="theme-color" content="#2874f0" />
+        <link href="<%= htmlWebpackPlugin.options.favicon %>" rel="shortcut icon" type="image/ico" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/static/icon_doc_sign_72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/static/icon_doc_sign_114.png" />
+        <link rel="apple-touch-icon" sizes="144X144" href="/static/icon_doc_sign_144.png" />
+        <!-- <link rel="apple-touch-startup-image" href="images/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="images/splash-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"> -->
+        <link rel="manifest" href="/static/manifest.json" />
+        <link
+            crossorigin="anonymous"
+            href="https://fonts.googleapis.com/css?family=Roboto:100|Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/vuetify@1.5.20/dist/vuetify.min.css"
+            rel="stylesheet"
+        />
+        <title><%= htmlWebpackPlugin.options.title %></title>
+    </head>
+
+    <body oncontextmenu="return false;">
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.9/core.min.js"></script>
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.min.js"></script>
+        <script
+            crossorigin="anonymous"
+            src="https://cdn.jsdelivr.net/npm/vue-router@3.0.6/dist/vue-router.min.js"
+        ></script>
+        <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+        <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/vuetify@1.5.20/dist/vuetify.min.js"></script>
+        <!-- <script
+            crossorigin="anonymous"
+            src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" -->
+        <!-- </script> -->
+        <script
+            crossorigin="anonymous"
+            src="https://cdn.jsdelivr.net/npm/awesome-phonenumber@2.4.2/lib/index.min.js"
+        ></script>
+        <script
+            crossorigin="anonymous"
+            src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"
+        ></script>
+        <script
+            crossorigin="anonymous"
+            src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"
+        ></script>
+        <script
+            crossorigin="anonymous"
+            src="https://g.alicdn.com/dingding/dingtalk-jsapi/2.3.0/dingtalk.open.js"
+        ></script>
+        <!-- <script>
+            window.addEventListener(
+                'load',
+                function() {
+                    var isTouchDevice =
+                        'ontouchstart' in window || (window.DocumentTouch && document instanceof DocumentTouch);
+                    isTouchDevice && FastClick.attach(document.body);
+                },
+                false
+            );
+        </script> -->
+    </body>
+</html>

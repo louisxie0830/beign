@@ -1,0 +1,109 @@
+{
+    "TW": [{
+            "name": "台北市",
+            "code": "TPE"
+        },
+        {
+            "name": "新北市",
+            "code": "TPH"
+        },
+        {
+            "name": "桃园市",
+            "code": "TYC"
+        },
+        {
+            "name": "台中市",
+            "code": "TXG"
+        },
+        {
+            "name": "台南市",
+            "code": "TNN"
+        },
+        {
+            "name": "高雄市",
+            "code": "KHH"
+        },
+        {
+            "name": "新竹市",
+            "code": "HSC"
+        },
+        {
+            "name": "新竹县",
+            "code": "HSH"
+        },
+        {
+            "name": "基隆市",
+            "code": "KLU"
+        },
+        {
+            "name": "苗栗县",
+            "code": "MAL"
+        },
+        {
+            "name": "云林县",
+            "code": "YUN"
+        },
+        {
+            "name": "南投县",
+            "code": "NTO"
+        },
+        {
+            "name": "宜兰县",
+            "code": "ILN"
+        },
+        {
+            "name": "花莲县",
+            "code": "HWA"
+        },
+        {
+            "name": "台东县",
+            "code": "TTT"
+        },
+        {
+            "name": "屏东县",
+            "code": "IUH"
+        }
+    ],
+    "CN": [{
+            "name": "上海",
+            "code": "SHA"
+        },
+        {
+            "name": "北京",
+            "code": "BJS"
+        },
+        {
+            "name": "广州",
+            "code": "CAN"
+        },
+        {
+            "name": "南京",
+            "code": "NKG"
+        },
+        {
+            "name": "香港",
+            "code": "HK"
+        }
+    ],
+    "JP": [{
+            "name": "东京",
+            "code": "TYO"
+        },
+        {
+            "name": "大阪",
+            "code": "OSA"
+        },
+        {
+            "name": "京都",
+            "code": "KYO"
+        }
+    ],
+    "KR": [{
+        "name": "首尔",
+        "code": "SEL"
+    }],
+    "SEA": [{
+        "name": "新加玻市",
+        "code": "SEC"
+    }]
+}

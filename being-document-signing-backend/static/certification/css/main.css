@@ -1,0 +1,32 @@
+@charset "utf-8";
+html, body { height: auto; }
+/* CSS Document */
+hr{ border:0px;
+	height: 5px;
+    border-top: 1px solid #00C3ED;
+    border-bottom: 1px solid #00C3ED;}
+h1{font-size: 1.5em; color:#00C3ED; font-weight:bold;margin: 0;padding: 0;}
+h2{font-size: 1.5em;color:#00C3ED; font-weight: 500;margin: 0;padding: 0;}
+ul{list-style:none;}
+.wrap{width: 1250px;margin: auto;}
+.top{width:800px;margin: auto;text-align:center;}
+.top img{width: 300px;padding: 0 0 46px 0;}
+.top span{font-weight: 500;}
+.main{width:1000px;margin: auto;}
+.main ul{padding: 50px 0 0 0;}
+.main ul li{padding: 10px 0 10px 0;}
+.number{float: left;}
+.number img{width:40px;padding: 12px 25px 0px 0;}
+h3{color:white;font-size: 1.5em;position: absolute; z-index: 1;padding: 14px 0 0 13px; margin: 0;}
+.line{width: 40px;height: 95px;position: absolute; z-index: -1;background: url("../images/line.png") repeat-y center;}
+.line_top{width: 40px;height: 90px;position: absolute; z-index: -1;background: url("../images/line.png") repeat-y center;margin: 20px 0 0 0;}
+.line_end{width: 40px;height: 40px;position: absolute; z-index: -1;background: url("../images/line.png") repeat-y center;}
+.content span{padding: 0 0 0 25px; color:#7f7f7f;}
+.close{clear: both;}
+.table1{width: 980px;margin: auto;padding:20px 0 100px 0;}
+.table1 table{width: 980px;border-collapse:collapse;table-layout : fixed;word-wrap : break-word;text-align:center;}
+table,th,td{border: 2px solid #bfbfbf;}
+th{background-color:#00C3ED;font-size: 1.1em; color:white; font-weight:bold;}
+td{font-size: 1em; color:#00C3ED; padding:8px 15px;}
+.bottom{width: 1250px; height: 100px; margin: auto; background-color: #00C3ED;}
+.bottom img{width: 300px;float: right;padding: 25px 15px 0 0;}

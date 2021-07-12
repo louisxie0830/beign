@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardFooterView" customModule="signing_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xa1-p4-AIh">
+                    <rect key="frame" x="6.5" y="0.0" width="362" height="4"/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="jS4-se-ATW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Xa1-p4-AIh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="006-qL-xEC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Xa1-p4-AIh" secondAttribute="bottom" constant="16" id="5h9-Zg-dvz"/>
+                <constraint firstItem="Xa1-p4-AIh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="6.5" id="TQ9-rt-6Uq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Xa1-p4-AIh" secondAttribute="trailing" constant="6.5" id="z86-8W-0NM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="footerView" destination="Xa1-p4-AIh" id="CBD-ur-RRa"/>
+                <outlet property="leadingConstraint" destination="z86-8W-0NM" id="15E-mC-Ggx"/>
+                <outlet property="trailingConstraint" destination="TQ9-rt-6Uq" id="hBe-kJ-v3O"/>
+            </connections>
+        </view>
+    </objects>
+</document>

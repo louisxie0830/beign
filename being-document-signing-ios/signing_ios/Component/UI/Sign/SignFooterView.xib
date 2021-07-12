@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SignFooterView" customModule="signing_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZI-nF-n1N">
+                    <rect key="frame" x="16" y="0.0" width="343" height="12"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="fd6-d1-kXf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jZI-nF-n1N" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Gze-fS-PQQ"/>
+                <constraint firstItem="jZI-nF-n1N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Uy5-4N-Kfv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jZI-nF-n1N" secondAttribute="trailing" constant="16" id="WfT-gI-Xv6"/>
+                <constraint firstAttribute="bottom" secondItem="jZI-nF-n1N" secondAttribute="bottom" constant="8" id="uJ2-OW-rQ4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="footerView" destination="jZI-nF-n1N" id="WVc-HN-f0u"/>
+                <outlet property="leadingConstraint" destination="Gze-fS-PQQ" id="jtp-mT-t48"/>
+                <outlet property="trailingConstraint" destination="WfT-gI-Xv6" id="KGH-U6-HKG"/>
+            </connections>
+        </view>
+    </objects>
+</document>
